@@ -1,5 +1,5 @@
-a = int(input("Введите чило 1 :"))
-b = int(input("Введите число 2 :"))
-def sum (a,b):
-    return a + b
-print(sum(a,b))
+n = int(input())
+if (-15<n<12) or (14<n<17) or (n>19):
+    print (True)
+else:
+    print(False)
